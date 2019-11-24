@@ -5,7 +5,6 @@ authors = ["KarimAllah Ahmed <karim.allah.ahmed@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-bootloader = { version = "0.6.4", features = ["map_physical_memory"]}
 x86_64 = "0.7.5"
 rlibc = "1.0.0"
 libvmm = { path = "../../libvmm" }

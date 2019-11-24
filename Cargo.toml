@@ -20,4 +20,7 @@ edition = "2018"
 
 [dependencies]
 bitflags = "1.0.4"
+xargo = "0.3.16"
+cargo-xbuild = "0.5.18"
+bootloader = { version = "0.6.4", features = ["map_physical_memory"]}
 libvmm_macros = { path = "./libvmm_macros", version = "0.1.0" }
